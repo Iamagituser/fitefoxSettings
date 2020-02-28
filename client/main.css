@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+:root {
+  font: 4px;
+  font-family: "Fira Sans";
+}
+
+body {
+  background-color: #2a2a2e;
+  color: #f9f9fa;
+}
+
+.box1 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  height: 50vh;
+  margin-left: 3rem;
+  background-color: #4a4a4f;
+  padding: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+.menu {
+  padding: 8px;
+}
+
+.menu:hover {
+  background-color: #737373;
+  border-radius: 2px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9c9a9a;
+  margin: 0.3em 0;
+  padding: 0;
+}
+
+.hSpace {
+  margin-right: 8px;
+}
+
+.container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 1rem;
+  width: 100%;
+}
+
+.box2 {
+  background-color: #9c9a9a;
+  margin-right: 8rem;
+  text-align: center;
+  padding: 8rem;
+}
+
+.sample {
+  width: 100%;
+  background-color: #38383d;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
