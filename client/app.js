@@ -15,5 +15,13 @@ function display() {
 function displayPay() {
     document.getElementById("demo").innerHTML = "Payments";
 }
-
-const SettingHtml = '<div class = "settings"> <h2>Settings</h2><div class="sample"></div> </div>';
+function changeColor() {
+    const body = document.body.style;
+    if (body.backgroundColor === "white") {
+        body.backgroundColor = "black";
+    }
+    else {
+        body.backgroundColor = "white";
+    }
+}
+const SettingHtml = '<div class = "settings"> <h2>Settings</h2><div class="sample"> <button onclick= "changeColor()"> Change Color</button></div> </div>';
